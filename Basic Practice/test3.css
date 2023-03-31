@@ -1,0 +1,26 @@
+h1{
+    color: brown;
+    background-color:rebeccapurple;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 55px;
+    text-align: center;
+}
+#myid{
+    color:aquamarine;
+    background-color:burlywood;
+}
+.myclass{
+    color:yellowgreen;
+    background-color:wheat;
+}
+.myclass1{
+    padding: 20px;
+    margin: 20px;
+    border-radius: 120px;
+    border-color: cadetblue;
+    border-width: 15px;
+    border-style: groove;
+    box-shadow: 2px 20px 20px  black, 20px 15px 25px aqua;
+
+
+}

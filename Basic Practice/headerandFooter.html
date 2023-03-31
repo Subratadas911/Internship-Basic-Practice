@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    
+    <title>Document</title>
+    <style>
+        #a{
+           
+            opacity: 0.5;
+            background-attachment: fixed;
+            
+
+        }
+        header{
+            position: fixed;
+            width: 100%;
+            left: 0px;
+            top: 0px;
+            color: rgb(255, 255, 255);
+            background-image:linear-gradient(120deg, red, green, blue, white, pink);
+       text-align: center;
+       font-size: 50px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;    
+    }
+    footer{
+        width: 100%;
+            left: 0px;
+            top: 0px;
+            color: rgb(0, 0, 0);
+            background-image:linear-gradient(90deg, rgb(48, 45, 45), rgb(127, 224, 127), rgb(96, 220, 236), rgb(255, 170, 170), rgb(146, 41, 160));
+       box-shadow: 20px 20px 20px black;
+            text-align: center;
+      
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;   
+    }
+    h2{
+        top: 50px;
+        left: 40px;
+        text-align: center;
+
+        position: absolute;
+
+    }
+    /* #a{grid-area:a ;} */
+    #a1{grid-area:a1 ;}
+    #a2{grid-area:a2 ;}
+    #a3{grid-area:a3 ;}
+    #a4{grid-area:a4 ;}
+
+    #maindiv{
+
+        display: grid;
+        grid-template-areas: 'a a1 a2 a3 a4';
+        top: 200px;
+        left: 450px;
+        text-align: center;
+        position: absolute;
+        grid-gap: 20px;
+        font-size: 25px;
+color: rgb(0, 0, 0);
+    } 
+    </style>
+</head>
+<body>
+    <div id="a">
+        <img src="https://images.pexels.com/photos/194096/pexels-photo-194096.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" width="100%"  >
+    </div>
+
+    <header>
+Welcome to MY Page
+
+    </header>
+    
+    <footer> Thank You for Visiting My page   Copyright @subrata</footer>
+
+    <h2>Hello all, This is Subrata Das studying Bsc in CSE at American International University-Bangladesh & done major in "Softwere Engineering". </h2>    
+
+<div id="maindiv">
+
+<!-- <div  id="a">Name</div> -->
+
+<div  id="a1">Program</div>
+<div  id="a2">Batch</div>
+<div  id="a3">Year</div>
+<div id="a4">Portal</div>
+
+</div>
+
+</body>
+</html>
